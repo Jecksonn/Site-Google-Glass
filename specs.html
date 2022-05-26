@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../site-google-glass/specs.html"/>
+        <title>Google Glass</title>
+    </head>
+    
+    <script language="javascript" src="../site-google-glass/funcoes.js"></script>
+
+
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+
+                <img id="icone" src="../site-google-glass/_imagens/especificacoes.png" alt="Especificações"/>
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul type="disc">
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/home.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/especificacoes.png' )"><a href="../site-google-glass/index.html">Home</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/especificacoes.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/especificacoes.png')"><a href="../site-google-glass/specs.html">Especificações</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/fotos.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/especificacoes.png')"><a href="../site-google-glass/fotos.html">Fotos</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/multimidia.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/especificacoes.png')"><a href="../site-google-glass/multimidia.html">Multimídia</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/contato.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/especificacoes.png')"><a href="../site-google-glass/fale-conosco.html">Fale conosco</a></li> 
+                    </ul>
+                </nav>
+            </header>
+        
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Glass > Especificações</h3>
+                            <h1>Raio-X no Google Glass</h1>
+                            <h2>por Jeckson Luiz</h2>
+                            <h3 class="direita">Atualizado em 16/Maio/2022</h3>
+                        </hgroup>
+                    </header>
+
+                    <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+                    <section id="conteudo">
+                        <img src="../site-google-glass/_imagens/glass-esquema-marcado.jpg" alt="Oculos com marcacoes na tela" usemap="#meumapa">
+                        <map name="meumapa">
+                            <area shape="rect" coords="179,202, 270,260" href="../site-google-glass/google-glass-txt.html#tela" target="janela" alt="janela"/>
+                            <area shape="circle" coords="158,243,12" href="../site-google-glass/google-glass-txt.html#camera" target="janela" alt="camera"/>
+                            <area shape="circle" coords="73,52, 12" href="../site-google-glass/google-glass-txt.html#sensores" target="janela" alt="sensores"/>
+                            <area shape="poly" coord="28,143,83,216,84,249,27,169" href="../site-google-glass/google-glass-txt.html#bateria" target="janela" alt="gdgats"/>
+                        </map>
+                        <iframe src="../site-google-glass/google-glass-txt.html" name="janela"  id="frame-spec" style="border:none; height: 380px; overflow: hidden;"></iframe>
+                    </section>
+                    
+                  
+                    
+                </article>
+            </section>  
+            
+
+                    <footer id="rodape">  
+                        <p>&copy; Copyright 2022 - by Jeckson Luiz<br/>
+                        <a href="https://www.facebook.com/jeckson.luiz.18" target="_blank">Facebook</a> | <a href="https://www.instagram.com/louiz.og" target="_blank">Instagram</a></p>
+                    </footer> 
+        </div>
+
+    </body>
+</html>

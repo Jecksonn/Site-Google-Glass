@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../site-google-glass/style.css"/>
+        <link rel="stylesheet" type="text/css" href="../site-google-glass/media.css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Glass</title>
+    </head>
+    <script language="javascript" src="../site-google-glass/funcoes.js"></script>
+
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+
+                <img id="icone" src="../site-google-glass/_imagens/multimidia.png" alt="multimidia"/>
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul type="disc">
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/home.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/multimidia.png')"><a href="../site-google-glass/index.html">Home</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/especificacoes.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/multimidia.png')"><a href="../site-google-glass/specs.html">Especificações</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/fotos.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/multimidia.png')"><a href="../site-google-glass/fotos.html">Fotos</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/multimidia.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/multimidia.png')"><a href="../site-google-glass/multimidia.html">Multimídia</a></li> 
+                        <li onmouseover="mudaFoto('../site-google-glass/_imagens/contato.png')" onmouseout="mudaFoto('../site-google-glass/_imagens/multimidia.png')"><a href="../site-google-glass/fale-conosco.html">Fale conosco</a></li> 
+                    </ul>
+                </nav>
+            </header>
+            
+            
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3> Glass > Multimídia</h3>
+                            <h1>Sons e Vídeos</h1>
+                            <h2>Por Jeckson Luiz</h2>
+                            <h3 class="direita">Atualizado em 16/Maio/2022</h3>
+                        </hgroup>
+                    </header>    
+
+                    <div class="tv-radio">
+                        <audio id="musica" controls="controls">
+                            <source src="../site-google-glass/arquivos/media/mania-663.mp3" type="audio/mpeg"/>
+                        </audio>
+                        <video id="filme" controls="controls" poster="../site-google-glass/arquivos/media/Google Glasses - Official Video (HD).mp4">
+                            <source src="../site-google-glass/arquivos/media/5 Best Smart Glasses of 2022.mp4" type="video/mp4"/>
+                            Seu navegador não suporta este tipo de arquivo.
+                        </video>  
+                    </div>
+                  
+                </article>       
+            </section>
+
+                <footer id="rodape">  
+                    <p>&copy; Copyright 2022 - by Jeckson Luiz<br/>
+                    <a href="https://www.facebook.com/jeckson.luiz.18" target="_blank">Facebook</a> | <a href="https://www.instagram.com/louiz.og" target="_blank">Instagram</a></p>
+                </footer> 
+        </div>
+    </body>
+</html>

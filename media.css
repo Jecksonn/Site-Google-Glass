@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+div.tv-radio {
+
+    width: 900px;
+    height:580px;
+    margin: auto;
+    background: url("../site-google-glass/_imagens/radio-tv.png") no-repeat;
+    
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 495px;
+    width: 300px;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 80px;
+    margin-top: 40px;
+    width: 450px;
+    height: 300px;
+   
+   
+    
+    
+}
